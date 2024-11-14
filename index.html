@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskTracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <h1>TaskTracker</h1>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="content">
+    <div id="greeting"></div>
+
+    <input type="text" id="taskInput" placeholder="Enter a task...">
+    <button id="addBtn">Add Task</button>
+
+    <div id="taskStats">
+      <p>Total Tasks: <span id="totalTasks">0</span></p>
+      <p>Completed: <span id="completedTasks">0</span></p>
+      <p>Pending: <span id="pendingTasks">0</span></p>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <canvas id="confettiCanvas"></canvas>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+    Coded with ❤️ by Divanshi Goyal
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
